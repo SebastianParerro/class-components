@@ -15,12 +15,12 @@ const Contact = ({ contact }) => {
 	return (
 		<div onClick={selectHandler}>
 			<div style={phone}>
-				{contact.phone},
+				{contact.phone}
 			</div>
 			<div style={phone}>
-				{contact.gender},
+				{contact.gender}
 			</div>
-			{contact.firstName} {contact.lastName},
+			{contact.firstName} {contact.lastName}
 		</div>
 	)
 };
